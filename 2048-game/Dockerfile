@@ -1,8 +1,6 @@
-# создание образа
 FROM node:14 
 WORKDIR /usr/src/app
 
-#Не копировать все йфалйы, описать только те, которые необходимо копировать для работы программы
 COPY data.txt .
 COPY game.js .
 COPY highscore.js .
