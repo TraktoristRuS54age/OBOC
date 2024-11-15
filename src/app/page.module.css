@@ -11,6 +11,7 @@
   font-size: 2rem;
   font-weight: bold;
   color: #333;
+  border-bottom: 1px solid black;
 }
 
 .jobTitle {
@@ -31,6 +32,10 @@
 .skillsList {
   list-style-type: none;
   padding: 0;
+}
+
+.skill {
+    border-bottom: 1px solid black;
 }
 
 .job, .education {
