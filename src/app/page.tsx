@@ -15,12 +15,12 @@ export default function Page()
       <section className={styles.section}>
         <h2>Навыки</h2>
         <ul className={styles.skillsList}>
-          <li>JavaScript, TypeScript</li>
-          <li>C++</li>
-          <li>React, Next.js</li>
-          <li>HTML, CSS</li>
-          <li>Git, GitHub</li>
-          <li>MySQL, Ne04j, GraphDB</li>
+          <li className={styles.skill}>JavaScript</li>
+          <li className={styles.skill}>C++</li>
+          <li className={styles.skill}>React, Next.js</li>
+          <li className={styles.skill}>HTML5, CSS</li>
+          <li className={styles.skill}>GitHub</li>
+          <li className={styles.skill}>MySQL, Ne04j, GraphDB</li>
         </ul>
       </section>
 
